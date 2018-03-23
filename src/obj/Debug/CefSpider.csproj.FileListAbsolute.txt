@@ -8,3 +8,10 @@ D:\Projects\Github\CefSpider\src\bin\CefSpider.pdb
 D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csproj.CopyComplete
 D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.exe
 D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.pdb
+D:\Projects\Github\CefSpider\src\bin\Resources\CefSpiderLogo.ico
+D:\Projects\Github\CefSpider\src\bin\NLog.config
+D:\Projects\Github\CefSpider\src\bin\CSkin.dll
+D:\Projects\Github\CefSpider\src\bin\NLog.dll
+D:\Projects\Github\CefSpider\src\bin\CSkin.xml
+D:\Projects\Github\CefSpider\src\bin\NLog.xml
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csprojResolveAssemblyReference.cache

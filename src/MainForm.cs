@@ -13,6 +13,7 @@ using FarsiLibrary.Win;
 using Timer = System.Windows.Forms.Timer;
 using System.Drawing;
 using System.Reflection;
+using CCWin;
 
 namespace CefSpider {
 
@@ -21,7 +22,7 @@ namespace CefSpider {
 	/// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
 	/// If you would only like to support 64-bit machines, simply change the DLL references.
 	/// </summary>
-	internal partial class MainForm : Form {
+	internal partial class MainForm : CCSkinMain{
 
 		private string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\";
 
@@ -70,7 +71,7 @@ namespace CefSpider {
 		/// </summary>
 		private void InitAppIcon() {
 			assembly = Assembly.GetAssembly(typeof(MainForm));
-			Icon = new Icon(GetResourceStream("CefSpider.ico"), new Size(64, 64));
+			Icon = new Icon(GetResourceStream("CefSpiderLogo.ico"), new Size(64, 64));
 		}
 		
 		public static Assembly assembly = null;
