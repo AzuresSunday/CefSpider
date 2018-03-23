@@ -1,4 +1,5 @@
-![CefSpider](https://github.com/CefSpider/CefSpider/raw/master/images/logo3.png)
+![CefSpider](https://raw.githubusercontent.com/robyle/CefSpider/master/src/Resources/CefSpiderLogo.png)
+
 
 CefSpdier is the fastest open source C# web browser there is! Slightly faster than Google Chrome when rendering web pages due to lightweight CEF renderer. We compared every available .NET browsing browsing engine and finally settled on the high-performance [CefSharp](https://github.com/cefsharp/CefSharp/). Released under the permissive MIT license.
 
