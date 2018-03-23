@@ -1,6 +1,6 @@
 using CefSharp;
 
-namespace SharpBrowser {
+namespace CefSpider {
     internal class SchemeHandlerFactory : ISchemeHandlerFactory
     {
 

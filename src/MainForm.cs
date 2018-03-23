@@ -14,10 +14,10 @@ using Timer = System.Windows.Forms.Timer;
 using System.Drawing;
 using System.Reflection;
 
-namespace SharpBrowser {
+namespace CefSpider {
 
 	/// <summary>
-	/// The main SharpBrowser form, supporting multiple tabs.
+	/// The main CefSpider form, supporting multiple tabs.
 	/// We used the x86 version of CefSharp V51, so the app works on 32-bit and 64-bit machines.
 	/// If you would only like to support 64-bit machines, simply change the DLL references.
 	/// </summary>
@@ -27,14 +27,14 @@ namespace SharpBrowser {
 
 		public static MainForm Instance;
 
-		public static string Branding = "SharpBrowser";
+		public static string Branding = "CefSpider";
 		public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36";
-		public static string HomepageURL = "https://www.google.com";
+		public static string HomepageURL = "https://www.baidu.com";
 		public static string NewTabURL = "about:blank";
-		public static string DownloadsURL = "sharpbrowser://storage/downloads.html";
-		public static string FileNotFoundURL = "sharpbrowser://storage/errors/notFound.html";
-		public static string CannotConnectURL = "sharpbrowser://storage/errors/cannotConnect.html";
-		public static string SearchURL = "https://www.google.com/#q=";
+		public static string DownloadsURL = "CefSpider://storage/downloads.html";
+		public static string FileNotFoundURL = "CefSpider://storage/errors/notFound.html";
+		public static string CannotConnectURL = "CefSpider://storage/errors/cannotConnect.html";
+		public static string SearchURL = "https://www.baidu.com/#q=";
 
 		public bool WebSecurity = true;
 		public bool CrossDomainSecurity = true;
@@ -70,13 +70,13 @@ namespace SharpBrowser {
 		/// </summary>
 		private void InitAppIcon() {
 			assembly = Assembly.GetAssembly(typeof(MainForm));
-			Icon = new Icon(GetResourceStream("sharpbrowser.ico"), new Size(64, 64));
+			Icon = new Icon(GetResourceStream("CefSpider.ico"), new Size(64, 64));
 		}
 		
 		public static Assembly assembly = null;
 		public Stream GetResourceStream(string filename, bool withNamespace = true) {
 			try {
-				return assembly.GetManifestResourceStream("SharpBrowser.Resources." + filename);
+				return assembly.GetManifestResourceStream("CefSpider.Resources." + filename);
 			} catch (System.Exception ex) { }
 			return null;
 		}
@@ -156,7 +156,7 @@ namespace SharpBrowser {
 			CefSettings settings = new CefSettings();
 
 			settings.RegisterScheme(new CefCustomScheme {
-				SchemeName = "sharpbrowser",
+				SchemeName = "CefSpider",
 				SchemeHandlerFactory = new SchemeHandlerFactory()
 			});
 
@@ -229,11 +229,11 @@ namespace SharpBrowser {
 
 				Uri.TryCreate(url, UriKind.Absolute, out outUri);
 
-				if (!(urlLower.StartsWith("http") || urlLower.StartsWith("sharpbrowser"))) {
+				if (!(urlLower.StartsWith("http") || urlLower.StartsWith("CefSpider"))) {
 					if (outUri == null || outUri.Scheme != Uri.UriSchemeFile) newUrl = "http://" + url;
 				}
 
-				if (urlLower.StartsWith("sharpbrowser:") ||
+				if (urlLower.StartsWith("CefSpider:") ||
 
 					// load URL if it seems valid
 					(Uri.TryCreate(newUrl, UriKind.Absolute, out outUri)
@@ -302,7 +302,7 @@ namespace SharpBrowser {
 			return (url == "" || url == "about:blank");
 		}
 		private bool IsBlankOrSystem(string url) {
-			return (url == "" || url.BeginsWith("about:") || url.BeginsWith("chrome:") || url.BeginsWith("sharpbrowser:"));
+			return (url == "" || url.BeginsWith("about:") || url.BeginsWith("chrome:") || url.BeginsWith("CefSpider:"));
 		}
 
 		public void AddBlankWindow() {
@@ -388,7 +388,7 @@ namespace SharpBrowser {
 			// save tab obj in tabstrip
 			tabStrip.Tag = tab;
 
-			if (url.StartsWith("sharpbrowser:")) {
+			if (url.StartsWith("CefSpider:")) {
 				browser.RegisterAsyncJsObject("host", host, true);
 			}
 			return tab;

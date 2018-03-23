@@ -1,4 +1,4 @@
-﻿namespace SharpBrowser
+﻿namespace CefSpider
 {
     partial class MainForm
     {

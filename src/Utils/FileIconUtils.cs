@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using System.IO;
 
-namespace SharpBrowser {
+namespace CefSpider {
 
 	/// <summary>
 	/// Two constants extracted from the FileInfoFlags, the only that are

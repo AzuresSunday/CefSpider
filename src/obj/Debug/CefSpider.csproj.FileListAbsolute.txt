@@ -1,0 +1,10 @@
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.MainForm.resources
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.Properties.Resources.resources
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csproj.GenerateResource.cache
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csproj.CoreCompileInputs.cache
+D:\Projects\Github\CefSpider\src\bin\CefSpider.exe.config
+D:\Projects\Github\CefSpider\src\bin\CefSpider.exe
+D:\Projects\Github\CefSpider\src\bin\CefSpider.pdb
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csproj.CopyComplete
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.exe
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.pdb

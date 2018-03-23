@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SharpBrowser")]
+[assembly: AssemblyTitle("CefSpider")]
 [assembly: AssemblyDescription("Sharp Browser Project")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sharp Browser Project")]
-[assembly: AssemblyProduct("SharpBrowser")]
+[assembly: AssemblyProduct("CefSpider")]
 [assembly: AssemblyCopyright("Copyright © 2016 Sharp Browser Project")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CefSharp;
 
-namespace SharpBrowser {
+namespace CefSpider {
 	internal static class Utils {
 
 		public static bool IsFocussed(TextBox tb) {

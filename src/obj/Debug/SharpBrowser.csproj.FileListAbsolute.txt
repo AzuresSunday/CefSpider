@@ -1,0 +1,11 @@
+D:\Projects\Github\CefSpider\src\bin\SharpBrowser.exe.config
+D:\Projects\Github\CefSpider\src\bin\SharpBrowser.exe
+D:\Projects\Github\CefSpider\src\bin\SharpBrowser.pdb
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.csprojResolveAssemblyReference.cache
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.MainForm.resources
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.Properties.Resources.resources
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.csproj.GenerateResource.cache
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.csproj.CoreCompileInputs.cache
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.csproj.CopyComplete
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.exe
+D:\Projects\Github\CefSpider\src\obj\Debug\SharpBrowser.pdb

@@ -7,8 +7,8 @@
     <ProjectGuid>{703472B8-B275-4F3F-95B6-426036F8462E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SharpBrowser</RootNamespace>
-    <AssemblyName>SharpBrowser</AssemblyName>
+    <RootNamespace>CefSpider</RootNamespace>
+    <AssemblyName>CefSpider</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
@@ -54,13 +54,18 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\sharpbrowser.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\CefSpider.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SharpBrowser.Program</StartupObject>
+    <StartupObject>CefSpider.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Data\JSON.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Utils\MiscUtils.cs" />
     <Compile Include="Handlers\HostHandler.cs" />
     <Compile Include="Handlers\RequestHandler.cs" />
@@ -102,7 +107,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\sharpbrowser.ico" />
+    <EmbeddedResource Include="Resources\CefSpider.ico" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CefSharp">
