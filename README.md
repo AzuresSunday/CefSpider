@@ -1,73 +1,71 @@
 ![CefSpider](https://raw.githubusercontent.com/robyle/CefSpider/master/src/Resources/CefSpiderLogo.png)
 
+CefSpider 产品开发代号为“车风”，后面相关说明可能以'车风'代替进行描述，该项目以Cef（Chromium Embedded Framework）为内置引擎，衍生出不同高性能爬虫！ 开源的浏览器特性，高效且快速的页面渲染能力.我们采用的.NET支持的浏览器[CefSharp](https://github.com/cefsharp/CefSharp/).发布必须基于MIT授权.
 
-CefSpdier is the fastest open source C# web browser there is! Slightly faster than Google Chrome when rendering web pages due to lightweight CEF renderer. We compared every available .NET browsing browsing engine and finally settled on the high-performance [CefSharp](https://github.com/cefsharp/CefSharp/). Released under the permissive MIT license.
+## 特性
 
-## Features
+- 支持 HTML5, CSS3, JS, HTML5 Video, WebGL 3D, 等
+- 多选项卡支持
+- 地址栏支持 (默认支持百度搜索)
+- 后退，前进，停止，刷型
+- 开发者工具
+- 搜索栏 (可以高亮显示实例)
+- 下载器管理
+- 自定义错误页面
+- 自定义右击菜单
+- 轻松添加特定于供应商的品牌、按钮或热键
+- 可以查看在线和离线页面（本地页面）
 
-- HTML5, CSS3, JS, HTML5 Video, WebGL 3D, etc
-- Tabbed browsing
-- Address bar (also opens Google)
-- Back, Forward, Stop, Refresh
-- Developer tools
-- Search bar (also highlights all instances)
-- Download manager
-- Custom error pages
-- Custom context menu
-- Easily add vendor-specific branding, buttons or hotkeys
-- View online & offline webpages
+## 热键
 
-## Hotkeys
-
-Hotkeys | Function
+热键 | 功能
 ------------ | -------------
-Ctrl+T		| Add a new tab
-Ctrl+N		| Add a new window
-Ctrl+W		| Close active tab
-F5			| Refresh active tab
-F12			| Open developer tools
-Ctrl+Tab	| Switch to the next tab
-Ctrl+Shift+Tab	| Switch to the previous tab
-Ctrl+F		| Open search bar (Enter to find next, Esc to close)
+Ctrl+T		| 新建一个选项卡
+Ctrl+N		| 新建一个窗体
+Ctrl+W		| 关闭当前活动选项卡
+F5			| 刷新当前活动选项卡
+F12			| 打开开发者工具
+Ctrl+Tab	| 切换下一个（右）选项卡
+Ctrl+Shift+Tab	| 切换上一个（左）选项卡
+Ctrl+F		| 打开搜索栏(回车选择下一个,ECS键退出)
 
-## Code
+## 代码环境说明
 
-- CefSpider uses CefSharp 51, NET Framework 4.5.2
-- `MainForm.cs` - main web browser UI and related functionality
-- `Handlers` - various handlers that we have registered with CefSharp that enable deeper integration between us and CefSharp
-- `Data/JSON.cs` - fast JSON serializer/deserializer
-- `bin` - Binaries are included in the `bin` folder due to the complex CefSharp setup required. Don't empty this folder.
-- `bin/storage` - HTML and JS required for downloads manager and custom error pages
+- CefSpider 使用的是 CefSharp 51, NET Framework 4.5.2
+- `MainForm.cs` - 主网页显示界面和功能代码
+- `Handlers` -各种Handlers(句柄)的注册都是可以基于它进行处理，它是我们这个项目和CefSharp之间的桥梁
+- `Data/JSON.cs` - 快速的Json序列号和反序列化操作
+- `bin` - 二进制文件是包含在`bin`下，由于复杂的cefsharp安装所需要的文件夹，不要清空这个文件夹
+- `bin/storage` - HTML 和 JS 为下载管理器和自定义错误页面所需
 
-## Credits
+## 感谢声望
 
-- [Robin Rodricks](https://github.com/robinrodricks) - CefSpider project.
-- [Alex Maitland](https://github.com/amaitland) - CefSharp project, wrapper for CEF embeddable browser.
-- [Ahmet Uzun](https://github.com/postacik) - Original browser project.
+- [Robin Rodricks](https://github.com/robinrodricks) - CefSpider 项目.
+- [Alex Maitland](https://github.com/amaitland) - CefSharp 项目, CEF嵌入浏览器的包装.
 
-## Screenshots
+## 项目运行截图
 
-### Apple Homepage
+### GitHub首页
 
 ![](https://github.com/CefSpider/CefSpider/raw/master/images/1.png)
 
-### Google Maps
+### 百度地图
 
 ![](https://github.com/CefSpider/CefSpider/raw/master/images/2.png)
 
-### Search Bar
+### 搜索栏展示
 
 ![](https://github.com/CefSpider/CefSpider/raw/master/images/search.png)
 
-### Downloads Tab
+### 下载页面显示
 
 ![](https://github.com/CefSpider/CefSpider/raw/master/images/3.png)
 
-### Developer Tools
+### 开发者调试工具
 
 ![](https://github.com/CefSpider/CefSpider/raw/master/images/4.png)
 
-### Custom Error Pages
+### 自定义错误页面
 
 ![](https://github.com/CefSpider/CefSpider/raw/master/images/error1.png)
 
