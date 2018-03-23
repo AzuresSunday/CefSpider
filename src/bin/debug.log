@@ -412,3 +412,10 @@
 [0323/161428:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://baike.baidu.com/item/CEF/20837917' was loaded over HTTPS, but requested an insecure hyperlink auditing endpoint 'http://nsclick.baidu.com/v.gif?pid=307&type=3075&l=123154&t=0&s=123154&v=685&f=0&r=&u=https%3A%2F%2Fbaike.baidu.com%2Fitem%2FCEF%2F20837917'. This request has been blocked; the content must be served over HTTPS.", source: https://baike.baidu.com/item/CEF/20837917 (0)
 [0323/161531:INFO:CONSOLE(0)] "Mixed Content: The page at 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=QQ&rsv_pq=ef19dbf700000112&rsv_t=05aeZMVmUFkeRkrHzhzpJFePMKwrcbF5oOB5hjzQkrHocDsQXRTVd4%2F%2FyRk&rqlang=cn&rsv_enter=1&rsv_sug3=2&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=1088&rsv_sug4=1089' was loaded over HTTPS, but requested an insecure resource 'cefspider://storage/errors/cannotConnect.html'. This content should also be served over HTTPS.", source: https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=QQ&rsv_pq=ef19dbf700000112&rsv_t=05aeZMVmUFkeRkrHzhzpJFePMKwrcbF5oOB5hjzQkrHocDsQXRTVd4%2F%2FyRk&rqlang=cn&rsv_enter=1&rsv_sug3=2&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=1088&rsv_sug4=1089 (0)
 [0323/161904:INFO:CONSOLE(120)] "Uncaught ReferenceError: host is not defined", source: file:///D:/Projects/Github/CefSpider/src/bin/storage/downloads.html (120)
+[0323/162545:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/ (0)
+[0323/162602:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/cn (0)
+[0323/162629:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/robyle/CefSpider (0)
+[0323/162647:ERROR:ipc_channel_win.cc(217)] pipe error: 109
