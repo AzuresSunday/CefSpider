@@ -80,7 +80,7 @@ Ctrl+F		| 打开搜索栏(回车选择下一个,ECS键退出)
 
 ## 定制技术支持打赏支付服务
 
-![微信支付](https://raw.githubusercontent.com/robyle/CefSpider/master/images/wechatpay-roby.png)
+![微信支付](https://raw.githubusercontent.com/robyle/CefSpider/master/images/wechatpay-roby.jpg)
 
-![支付宝](https://raw.githubusercontent.com/robyle/CefSpider/master/images/alipay-roby.png)
+![支付宝](https://raw.githubusercontent.com/robyle/CefSpider/master/images/alipay-roby.jpg)
 
