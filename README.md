@@ -71,3 +71,16 @@ Ctrl+F		| 打开搜索栏(回车选择下一个,ECS键退出)
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/FileNotFound.png)
 
+## 计划新增特性
+
+- 扩展代理功能，代码和界面上都能调配Http代理。
+- 新增设置选项
+- 扩展任务栏状态：1.IP地址信息,网络状态 2.实时内核加载网速
+- 支持Mp4,Mp3播放视频
+
+## 定制技术支持打赏支付服务
+
+![微信支付](https://raw.githubusercontent.com/robyle/CefSpider/master/images/wechatpay-roby.png)
+
+![支付宝](https://raw.githubusercontent.com/robyle/CefSpider/master/images/alipay-roby.png)
+
