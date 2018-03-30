@@ -1,89 +1,97 @@
 ![CefSpider](https://raw.githubusercontent.com/robyle/CefSpider/master/src/Resources/CefSpiderLogo.png)
 
-CefSpider ²úÆ·¿ª·¢´úºÅÎª¡°³µ·ç¡±£¬ºóÃæÏà¹ØËµÃ÷¿ÉÄÜÒÔ'³µ·ç'´úÌæ½øĞĞÃèÊö£¬¸ÃÏîÄ¿ÒÔCef£¨Chromium Embedded Framework£©ÎªÄÚÖÃÒıÇæ£¬ÑÜÉú³ö²»Í¬¸ßĞÔÄÜÅÀ³æ£¡ ¿ªÔ´µÄä¯ÀÀÆ÷ÌØĞÔ£¬¸ßĞ§ÇÒ¿ìËÙµÄÒ³ÃæäÖÈ¾ÄÜÁ¦.ÎÒÃÇ²ÉÓÃµÄ.NETÖ§³ÖµÄä¯ÀÀÆ÷[CefSharp](https://github.com/cefsharp/CefSharp/).·¢²¼±ØĞë»ùÓÚMITÊÚÈ¨.
+CefSpider äº§å“å¼€å‘ä»£å·ä¸ºâ€œè½¦é£â€ï¼Œåé¢ç›¸å…³è¯´æ˜å¯èƒ½ä»¥'è½¦é£'ä»£æ›¿è¿›è¡Œæè¿°ï¼Œè¯¥é¡¹ç›®ä»¥Cefï¼ˆChromium Embedded Frameworkï¼‰ä¸ºå†…ç½®å¼•æ“ï¼Œè¡ç”Ÿå‡ºä¸åŒé«˜æ€§èƒ½çˆ¬è™«ï¼ å¼€æºçš„æµè§ˆå™¨ç‰¹æ€§ï¼Œé«˜æ•ˆä¸”å¿«é€Ÿçš„é¡µé¢æ¸²æŸ“èƒ½åŠ›.æˆ‘ä»¬é‡‡ç”¨çš„.NETæ”¯æŒçš„æµè§ˆå™¨[CefSharp](https://github.com/cefsharp/CefSharp/).å‘å¸ƒå¿…é¡»åŸºäºMITæˆæƒ.
 
-## ÌØĞÔ
+## ç‰¹æ€§
 
-- Ö§³Ö HTML5, CSS3, JS, HTML5 Video, WebGL 3D, µÈ
-- ¶àÑ¡Ïî¿¨Ö§³Ö
-- µØÖ·À¸Ö§³Ö (Ä¬ÈÏÖ§³Ö°Ù¶ÈËÑË÷)
-- ºóÍË£¬Ç°½ø£¬Í£Ö¹£¬Ë¢ĞÍ
-- ¿ª·¢Õß¹¤¾ß
-- ËÑË÷À¸ (¿ÉÒÔ¸ßÁÁÏÔÊ¾ÊµÀı)
-- ÏÂÔØÆ÷¹ÜÀí
-- ×Ô¶¨Òå´íÎóÒ³Ãæ
-- ×Ô¶¨ÒåÓÒ»÷²Ëµ¥
-- ÇáËÉÌí¼ÓÌØ¶¨ÓÚ¹©Ó¦ÉÌµÄÆ·ÅÆ¡¢°´Å¥»òÈÈ¼ü
-- ¿ÉÒÔ²é¿´ÔÚÏßºÍÀëÏßÒ³Ãæ£¨±¾µØÒ³Ãæ£©
+- æ”¯æŒ HTML5, CSS3, JS, HTML5 Video, WebGL 3D, ç­‰
+- å¤šé€‰é¡¹å¡æ”¯æŒ
+- åœ°å€æ æ”¯æŒ (é»˜è®¤æ”¯æŒç™¾åº¦æœç´¢)
+- åé€€ï¼Œå‰è¿›ï¼Œåœæ­¢ï¼Œåˆ·å‹
+- å¼€å‘è€…å·¥å…·
+- æœç´¢æ  (å¯ä»¥é«˜äº®æ˜¾ç¤ºå®ä¾‹)
+- ä¸‹è½½å™¨ç®¡ç†
+- è‡ªå®šä¹‰é”™è¯¯é¡µé¢
+- è‡ªå®šä¹‰å³å‡»èœå•
+- è½»æ¾æ·»åŠ ç‰¹å®šäºä¾›åº”å•†çš„å“ç‰Œã€æŒ‰é’®æˆ–çƒ­é”®
+- å¯ä»¥æŸ¥çœ‹åœ¨çº¿å’Œç¦»çº¿é¡µé¢ï¼ˆæœ¬åœ°é¡µé¢ï¼‰
 
-## ÈÈ¼ü
+## è®¡åˆ’æ–°ç‰¹æ€§æ”¯æŒ
 
-ÈÈ¼ü | ¹¦ÄÜ
+- æŠ“å–æ•°æ®ï¼Œé€šè¿‡ä»£ç†ï¼Œç­›é€‰æ•°æ®ï¼Œä¿å­˜æ•°æ®ã€‚
+- å®Œæˆæ¼”ç¤ºçˆ¬è™«æ•°æ®æ•°æ®æµæ¼”ç¤ºã€‚
+- è§£ææ‰€éœ€çš„æ•°æ®
+- å¤šå®ä¾‹è¿è¡Œï¼Œç‹¬ç«‹Cookieæœºåˆ¶
+
+
+## çƒ­é”®
+
+çƒ­é”® | åŠŸèƒ½
 ------------ | -------------
-Ctrl+T		| ĞÂ½¨Ò»¸öÑ¡Ïî¿¨
-Ctrl+N		| ĞÂ½¨Ò»¸ö´°Ìå
-Ctrl+W		| ¹Ø±Õµ±Ç°»î¶¯Ñ¡Ïî¿¨
-F5			| Ë¢ĞÂµ±Ç°»î¶¯Ñ¡Ïî¿¨
-F12			| ´ò¿ª¿ª·¢Õß¹¤¾ß
-Ctrl+Tab	| ÇĞ»»ÏÂÒ»¸ö£¨ÓÒ£©Ñ¡Ïî¿¨
-Ctrl+Shift+Tab	| ÇĞ»»ÉÏÒ»¸ö£¨×ó£©Ñ¡Ïî¿¨
-Ctrl+F		| ´ò¿ªËÑË÷À¸(»Ø³µÑ¡ÔñÏÂÒ»¸ö,ECS¼üÍË³ö)
+Ctrl+T		| æ–°å»ºä¸€ä¸ªé€‰é¡¹å¡
+Ctrl+N		| æ–°å»ºä¸€ä¸ªçª—ä½“
+Ctrl+W		| å…³é—­å½“å‰æ´»åŠ¨é€‰é¡¹å¡
+F5			| åˆ·æ–°å½“å‰æ´»åŠ¨é€‰é¡¹å¡
+F12			| æ‰“å¼€å¼€å‘è€…å·¥å…·
+Ctrl+Tab	| åˆ‡æ¢ä¸‹ä¸€ä¸ªï¼ˆå³ï¼‰é€‰é¡¹å¡
+Ctrl+Shift+Tab	| åˆ‡æ¢ä¸Šä¸€ä¸ªï¼ˆå·¦ï¼‰é€‰é¡¹å¡
+Ctrl+F		| æ‰“å¼€æœç´¢æ (å›è½¦é€‰æ‹©ä¸‹ä¸€ä¸ª,ECSé”®é€€å‡º)
 
-## ´úÂë»·¾³ËµÃ÷
+## ä»£ç ç¯å¢ƒè¯´æ˜
 
-- CefSpider Ê¹ÓÃµÄÊÇ CefSharp 51, NET Framework 4.5.2
-- `MainForm.cs` - Ö÷ÍøÒ³ÏÔÊ¾½çÃæºÍ¹¦ÄÜ´úÂë
-- `Handlers` -¸÷ÖÖHandlers(¾ä±ú)µÄ×¢²á¶¼ÊÇ¿ÉÒÔ»ùÓÚËü½øĞĞ´¦Àí£¬ËüÊÇÎÒÃÇÕâ¸öÏîÄ¿ºÍCefSharpÖ®¼äµÄÇÅÁº
-- `Data/JSON.cs` - ¿ìËÙµÄJsonĞòÁĞºÅºÍ·´ĞòÁĞ»¯²Ù×÷
-- `bin` - ¶ş½øÖÆÎÄ¼şÊÇ°üº¬ÔÚ`bin`ÏÂ£¬ÓÉÓÚ¸´ÔÓµÄcefsharp°²×°ËùĞèÒªµÄÎÄ¼ş¼Ğ£¬²»ÒªÇå¿ÕÕâ¸öÎÄ¼ş¼Ğ
-- `bin/storage` - HTML ºÍ JS ÎªÏÂÔØ¹ÜÀíÆ÷ºÍ×Ô¶¨Òå´íÎóÒ³ÃæËùĞè
+- CefSpider ä½¿ç”¨çš„æ˜¯ CefSharp 51, NET Framework 4.5.2
+- `MainForm.cs` - ä¸»ç½‘é¡µæ˜¾ç¤ºç•Œé¢å’ŒåŠŸèƒ½ä»£ç 
+- `Handlers` -å„ç§Handlers(å¥æŸ„)çš„æ³¨å†Œéƒ½æ˜¯å¯ä»¥åŸºäºå®ƒè¿›è¡Œå¤„ç†ï¼Œå®ƒæ˜¯æˆ‘ä»¬è¿™ä¸ªé¡¹ç›®å’ŒCefSharpä¹‹é—´çš„æ¡¥æ¢
+- `Data/JSON.cs` - å¿«é€Ÿçš„Jsonåºåˆ—å·å’Œååºåˆ—åŒ–æ“ä½œ
+- `bin` - äºŒè¿›åˆ¶æ–‡ä»¶æ˜¯åŒ…å«åœ¨`bin`ä¸‹ï¼Œç”±äºå¤æ‚çš„cefsharpå®‰è£…æ‰€éœ€è¦çš„æ–‡ä»¶å¤¹ï¼Œä¸è¦æ¸…ç©ºè¿™ä¸ªæ–‡ä»¶å¤¹
+- `bin/storage` - HTML å’Œ JS ä¸ºä¸‹è½½ç®¡ç†å™¨å’Œè‡ªå®šä¹‰é”™è¯¯é¡µé¢æ‰€éœ€
 
-## ¸ĞĞ»ÉùÍû
+## æ„Ÿè°¢å£°æœ›
 
-- [Robin Rodricks](https://github.com/robinrodricks) - CefSpider ÏîÄ¿.
-- [Alex Maitland](https://github.com/amaitland) - CefSharp ÏîÄ¿, CEFÇ¶Èëä¯ÀÀÆ÷µÄ°ü×°.
+- [Robin Rodricks](https://github.com/robinrodricks) - CefSpider é¡¹ç›®.
+- [Alex Maitland](https://github.com/amaitland) - CefSharp é¡¹ç›®, CEFåµŒå…¥æµè§ˆå™¨çš„åŒ…è£….
 
-## ÏîÄ¿ÔËĞĞ½ØÍ¼
+## é¡¹ç›®è¿è¡Œæˆªå›¾
 
-### GitHubÊ×Ò³
+### GitHubé¦–é¡µ
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/Github.png)
 
-### °Ù¶ÈµØÍ¼
+### ç™¾åº¦åœ°å›¾
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/baiduMap.png)
 
-### ËÑË÷À¸Õ¹Ê¾
+### æœç´¢æ å±•ç¤º
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/search.png)
 
-### ÏÂÔØÒ³ÃæÏÔÊ¾
+### ä¸‹è½½é¡µé¢æ˜¾ç¤º
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/FileNotFound.png)
 
-### ¿ª·¢Õßµ÷ÊÔ¹¤¾ß
+### å¼€å‘è€…è°ƒè¯•å·¥å…·
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/DevTools.png)
 
-### ×Ô¶¨Òå´íÎóÒ³Ãæ
+### è‡ªå®šä¹‰é”™è¯¯é¡µé¢
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/cantConnect.png)
 
 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/images/FileNotFound.png)
 
-## ¼Æ»®ĞÂÔöÌØĞÔ
+## è®¡åˆ’æ–°å¢ç‰¹æ€§
 
-- À©Õ¹´úÀí¹¦ÄÜ£¬´úÂëºÍ½çÃæÉÏ¶¼ÄÜµ÷ÅäHttp´úÀí¡£
-- ĞÂÔöÉèÖÃÑ¡Ïî
-- À©Õ¹ÈÎÎñÀ¸×´Ì¬£º1.IPµØÖ·ĞÅÏ¢,ÍøÂç×´Ì¬ 2.ÊµÊ±ÄÚºË¼ÓÔØÍøËÙ
-- Ö§³ÖMp4,Mp3²¥·ÅÊÓÆµ
+- æ‰©å±•ä»£ç†åŠŸèƒ½ï¼Œä»£ç å’Œç•Œé¢ä¸Šéƒ½èƒ½è°ƒé…Httpä»£ç†ã€‚
+- æ–°å¢è®¾ç½®é€‰é¡¹
+- æ‰©å±•ä»»åŠ¡æ çŠ¶æ€ï¼š1.IPåœ°å€ä¿¡æ¯,ç½‘ç»œçŠ¶æ€ 2.å®æ—¶å†…æ ¸åŠ è½½ç½‘é€Ÿ
+- æ”¯æŒMp4,Mp3æ’­æ”¾è§†é¢‘
 
-## ¶¨ÖÆ¼¼ÊõÖ§³Ö´òÉÍÖ§¸¶·şÎñ
+## å®šåˆ¶æŠ€æœ¯æ”¯æŒæ‰“èµæ”¯ä»˜æœåŠ¡
 
-- Î¢ĞÅÕËºÅ£¨ÓÂ£©£ºrobortly
+- å¾®ä¿¡è´¦å·ï¼ˆå‹‡ï¼‰ï¼šrobortly
 
-![Î¢ĞÅÖ§¸¶](https://raw.githubusercontent.com/robyle/CefSpider/master/images/wechatpay-roby.jpg)
+![å¾®ä¿¡æ”¯ä»˜](https://raw.githubusercontent.com/robyle/CefSpider/master/images/wechatpay-roby.jpg)
 
-- Ö§¸¶±¦ÕËºÅ£º575800856@qq.com
+- æ”¯ä»˜å®è´¦å·ï¼š575800856@qq.com
 
-![Ö§¸¶±¦£¨ÓÂ£©](https://raw.githubusercontent.com/robyle/CefSpider/master/images/alipay-roby.jpg)
+![æ”¯ä»˜å®ï¼ˆå‹‡ï¼‰](https://raw.githubusercontent.com/robyle/CefSpider/master/images/alipay-roby.jpg)
