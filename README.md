@@ -4,7 +4,7 @@
 
 ## CefSpider设计图
 
-![思维导图](https://raw.githubusercontent.com/robyle/CefSpider/master/images/CefSpider.svg)
+![思维导图](https://raw.githubusercontent.com/robyle/CefSpider/master/images/CefSpider.jpg)
 
 CefSpider 产品开发代号为“车风”，后面相关说明可能以'车风'代替进行描述，该项目以Cef（Chromium Embedded Framework）为内置引擎，衍生出不同高性能爬虫！ 开源的浏览器特性，高效且快速的页面渲染能力.我们采用的.NET支持的浏览器[CefSharp](https://github.com/cefsharp/CefSharp/).发布必须基于MIT授权.
 
