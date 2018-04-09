@@ -2,6 +2,14 @@
 
 CefSpider 产品开发代号为“车风”，后面相关说明可能以'车风'代替进行描述，该项目以Cef（Chromium Embedded Framework）为内置引擎，衍生出不同高性能爬虫！ 开源的浏览器特性，高效且快速的页面渲染能力.我们采用的.NET支持的浏览器[CefSharp](https://github.com/cefsharp/CefSharp/).发布必须基于MIT授权.
 
+## 快来加入群聊【CefSpider交流群】(群号[64360678](https://jq.qq.com/?_wv=1027&k=5tBcDuQ))，发现精彩内容。
+
+
+![交流群二维码](https://raw.githubusercontent.com/robyle/CefSpider/master/images/CefSpider_Code.png)
+
+大家优先考虑通过Github提交issue，这样遇到解决的问题后来者可以自行解决！
+
+
 ## 特性
 
 - 支持 HTML5, CSS3, JS, HTML5 Video, WebGL 3D, 等
@@ -77,13 +85,3 @@ Ctrl+F		| 打开搜索栏(回车选择下一个,ECS键退出)
 - 新增设置选项
 - 扩展任务栏状态：1.IP地址信息,网络状态 2.实时内核加载网速
 - 支持Mp4,Mp3播放视频
-
-## 定制技术支持打赏支付服务
-
-- 微信账号（勇）：robortly
-
-![微信支付](https://raw.githubusercontent.com/robyle/CefSpider/master/images/wechatpay-roby.jpg)
-
-- 支付宝账号：575800856@qq.com
-
-![支付宝（勇）](https://raw.githubusercontent.com/robyle/CefSpider/master/images/alipay-roby.jpg)
