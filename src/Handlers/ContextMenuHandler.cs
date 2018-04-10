@@ -36,15 +36,15 @@ namespace CefSpider {
 
 			// to copy text
 			if (parameters.SelectionText.CheckIfValid()) {
-				model.AddItem(CefMenuCommand.Copy, "Copy");
+				model.AddItem(CefMenuCommand.Copy, "复制");
 				model.AddSeparator();
 			}
 
 			//Removing existing menu item
 			//bool removed = model.Remove(CefMenuCommand.ViewSource); // Remove "View Source" option
 			if (parameters.LinkUrl != "") {
-				model.AddItem((CefMenuCommand)OpenLinkInNewTab, "Open link in new tab");
-				model.AddItem((CefMenuCommand)CopyLinkAddress, "Copy link");
+				model.AddItem((CefMenuCommand)OpenLinkInNewTab, "新选项卡打开链接");
+				model.AddItem((CefMenuCommand)CopyLinkAddress, "复制链接");
 				model.AddSeparator();
 			}
 

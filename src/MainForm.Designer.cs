@@ -45,6 +45,7 @@
             this.tabStrip1 = new FarsiLibrary.Win.FATabStripItem();
             this.tabStripAdd = new FarsiLibrary.Win.FATabStripItem();
             this.PanelStatus = new System.Windows.Forms.Panel();
+            this.lbIpAddress = new System.Windows.Forms.Label();
             this.PanelSearch = new System.Windows.Forms.Panel();
             this.BtnNextSearch = new System.Windows.Forms.Button();
             this.BtnPrevSearch = new System.Windows.Forms.Button();
@@ -54,6 +55,7 @@
             this.PanelToolbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TabPages)).BeginInit();
             this.TabPages.SuspendLayout();
+            this.PanelStatus.SuspendLayout();
             this.PanelSearch.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -223,11 +225,21 @@
             // 
             // PanelStatus
             // 
+            this.PanelStatus.Controls.Add(this.lbIpAddress);
             this.PanelStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelStatus.Location = new System.Drawing.Point(4, 647);
             this.PanelStatus.Name = "PanelStatus";
             this.PanelStatus.Size = new System.Drawing.Size(926, 20);
             this.PanelStatus.TabIndex = 8;
+            // 
+            // lbIpAddress
+            // 
+            this.lbIpAddress.AutoSize = true;
+            this.lbIpAddress.Location = new System.Drawing.Point(3, 3);
+            this.lbIpAddress.Name = "lbIpAddress";
+            this.lbIpAddress.Size = new System.Drawing.Size(105, 15);
+            this.lbIpAddress.TabIndex = 1;
+            this.lbIpAddress.Text = "当前IP地址:0.0.0.0";
             // 
             // PanelSearch
             // 
@@ -308,8 +320,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(221)))), ((int)(((byte)(235)))));
             this.ClientSize = new System.Drawing.Size(934, 671);
-            this.ControlBoxActive = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(221)))), ((int)(((byte)(235)))));
-            this.ControlBoxDeactive = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(213)))), ((int)(((byte)(248)))));
             this.Controls.Add(this.PanelSearch);
             this.Controls.Add(this.TabPages);
             this.Controls.Add(this.PanelToolbar);
@@ -332,6 +342,8 @@
             this.PanelToolbar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TabPages)).EndInit();
             this.TabPages.ResumeLayout(false);
+            this.PanelStatus.ResumeLayout(false);
+            this.PanelStatus.PerformLayout();
             this.PanelSearch.ResumeLayout(false);
             this.PanelSearch.PerformLayout();
             this.ResumeLayout(false);
@@ -360,6 +372,7 @@
         private System.Windows.Forms.Button BtnCloseSearch;
         private System.Windows.Forms.Button BtnPrevSearch;
         private System.Windows.Forms.Button BtnNextSearch;
+        private System.Windows.Forms.Label lbIpAddress;
     }
 }
 

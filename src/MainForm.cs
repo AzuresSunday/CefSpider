@@ -30,8 +30,8 @@ namespace CefSpider {
 
 		public static string Branding = "CefSpider";
 		public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36";
-		public static string HomepageURL = "https://www.baidu.com";
-		public static string NewTabURL = "about:blank";
+		public static string HomepageURL = "https://github.com/robyle/CefSpider";
+		public static string NewTabURL = "http://cefspider.le1e.com/";
 		public static string DownloadsURL = "CefSpider://storage/downloads.html";
 		public static string FileNotFoundURL = "CefSpider://storage/errors/notFound.html";
 		public static string CannotConnectURL = "CefSpider://storage/errors/cannotConnect.html";
@@ -52,10 +52,26 @@ namespace CefSpider {
 			InitBrowser();
 
 			SetFormTitle(null);
-
+            
+            //初始化用户自定以UI数据
+            InitUserUI();
 		}
+        private Timer timerSystem;
+        private void InitUserUI()
+        {
+            timerSystem = new Timer();
+            timerSystem.Interval = 1000;
+            timerSystem.Start();
+            timerSystem.Tick += TimerSystem_Tick;
+        }
 
-		private void MainForm_Load(object sender, EventArgs e) {
+        private void TimerSystem_Tick(object sender, EventArgs e)
+        {
+            timerSystem.Interval += 60*1000;
+            lbIpAddress.Text ="当前IP地址："+new Network.IpInfo().UpdateCurrentIpInfo();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e) {
 
 			InitAppIcon();
 			InitTooltips(this.Controls);
@@ -162,12 +178,14 @@ namespace CefSpider {
 			});
 
 			settings.UserAgent = UserAgent;
-
 			settings.IgnoreCertificateErrors = true;
-			
 			settings.CachePath = GetAppDir("Cache");
 
-			Cef.Initialize(settings);
+            settings.Locale = "zh-CN";
+            //配置代理运行
+            //settings.CefCommandLineArgs.Add("no-proxy-server", "1");
+            settings.CefCommandLineArgs.Add("proxy-server", "192.168.1.60:9999");
+            Cef.Initialize(settings, true, true);//Cef.Initialize(settings);
 
 			dHandler = new DownloadHandler(this);
 			lHandler = new LifeSpanHandler(this);
@@ -215,7 +233,7 @@ namespace CefSpider {
 			string urlLower = url.Trim().ToLower();
 
 			// UI
-			SetTabTitle(CurBrowser, "Loading...");
+			SetTabTitle(CurBrowser, "加载中...");
 
 			// load page
 			if (urlLower == "localhost") {
@@ -925,11 +943,11 @@ namespace CefSpider {
 			}
 		}
 
-		#endregion
 
 
-
-	}
+        #endregion
+        
+    }
 }
 
 /// <summary>

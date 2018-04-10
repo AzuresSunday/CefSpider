@@ -37,6 +37,15 @@ CefSpider 产品开发代号为“车风”，后面相关说明可能以'车风
 - 解析所需的数据
 - 多实例运行，独立Cookie机制
 
+## 贡献代码
+
+> 如果需要使用或修改此项目的源代码，建议先Fork。也欢迎将您修改的通用版本Pull Request过来。
+
+1. Fork
+2. 创建您的特性分支 (`git checkout -b my-new-feature`)
+3. 提交您的改动 (`git commit -am 'Added some feature'`)
+4. 将您的修改记录提交到远程 `git` 仓库 (`git push origin my-new-feature`)
+5. 然后到 github 网站的该 `git` 远程仓库的 `my-new-feature` 分支下发起 Pull Request
 
 ## 热键
 
@@ -59,6 +68,10 @@ Ctrl+F		| 打开搜索栏(回车选择下一个,ECS键退出)
 - `Data/JSON.cs` - 快速的Json序列号和反序列化操作
 - `bin` - 二进制文件是包含在`bin`下，由于复杂的cefsharp安装所需要的文件夹，不要清空这个文件夹
 - `bin/storage` - HTML 和 JS 为下载管理器和自定义错误页面所需
+
+## 使用运行示例
+
+- 配置运行代理示意图 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/videos/配置代理.mp4)
 
 ## 感谢声望
 
