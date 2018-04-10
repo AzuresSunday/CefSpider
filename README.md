@@ -71,7 +71,10 @@ Ctrl+F		| 打开搜索栏(回车选择下一个,ECS键退出)
 
 ## 使用运行示例
 
-- 配置运行代理示意图 ![](https://raw.githubusercontent.com/robyle/CefSpider/master/videos/配置代理.mp4)
+- 配置运行代理示意图][videos/配置代理.mp4)]
+
+<video src="https://raw.githubusercontent.com/robyle/CefSpider/master/videos/配置代理.mp4" controls="controls">
+</video>
 
 ## 感谢声望
 
