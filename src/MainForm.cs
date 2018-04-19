@@ -184,7 +184,7 @@ namespace CefSpider {
             settings.Locale = "zh-CN";
             //配置代理运行
             //settings.CefCommandLineArgs.Add("no-proxy-server", "1");
-            settings.CefCommandLineArgs.Add("proxy-server", "192.168.1.60:9999");
+            //settings.CefCommandLineArgs.Add("proxy-server", "192.168.1.60:9999");
             Cef.Initialize(settings, true, true);//Cef.Initialize(settings);
 
 			dHandler = new DownloadHandler(this);

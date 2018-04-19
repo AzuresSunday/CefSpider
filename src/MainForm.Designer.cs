@@ -88,7 +88,7 @@
             this.BtnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRefresh.ForeColor = System.Drawing.Color.White;
             this.BtnRefresh.Image = ((System.Drawing.Image)(resources.GetObject("BtnRefresh.Image")));
-            this.BtnRefresh.Location = new System.Drawing.Point(870, 0);
+            this.BtnRefresh.Location = new System.Drawing.Point(1016, 0);
             this.BtnRefresh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnRefresh.Name = "BtnRefresh";
             this.BtnRefresh.Size = new System.Drawing.Size(25, 30);
@@ -102,7 +102,7 @@
             this.BtnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnStop.ForeColor = System.Drawing.Color.White;
             this.BtnStop.Image = ((System.Drawing.Image)(resources.GetObject("BtnStop.Image")));
-            this.BtnStop.Location = new System.Drawing.Point(870, -2);
+            this.BtnStop.Location = new System.Drawing.Point(1016, -2);
             this.BtnStop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnStop.Name = "BtnStop";
             this.BtnStop.Size = new System.Drawing.Size(25, 30);
@@ -147,7 +147,7 @@
             this.BtnDownloads.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDownloads.ForeColor = System.Drawing.Color.White;
             this.BtnDownloads.Image = ((System.Drawing.Image)(resources.GetObject("BtnDownloads.Image")));
-            this.BtnDownloads.Location = new System.Drawing.Point(898, 0);
+            this.BtnDownloads.Location = new System.Drawing.Point(1044, 0);
             this.BtnDownloads.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnDownloads.Name = "BtnDownloads";
             this.BtnDownloads.Size = new System.Drawing.Size(25, 30);
@@ -165,7 +165,7 @@
             this.TxtURL.Location = new System.Drawing.Point(60, 5);
             this.TxtURL.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtURL.Name = "TxtURL";
-            this.TxtURL.Size = new System.Drawing.Size(804, 22);
+            this.TxtURL.Size = new System.Drawing.Size(950, 22);
             this.TxtURL.TabIndex = 5;
             this.TxtURL.Click += new System.EventHandler(this.txtUrl_Click);
             this.TxtURL.TextChanged += new System.EventHandler(this.txtUrl_TextChanged);
@@ -184,7 +184,7 @@
             this.PanelToolbar.Location = new System.Drawing.Point(4, 28);
             this.PanelToolbar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelToolbar.Name = "PanelToolbar";
-            this.PanelToolbar.Size = new System.Drawing.Size(926, 30);
+            this.PanelToolbar.Size = new System.Drawing.Size(1072, 30);
             this.PanelToolbar.TabIndex = 6;
             // 
             // TabPages
@@ -198,7 +198,7 @@
             this.TabPages.Location = new System.Drawing.Point(4, 58);
             this.TabPages.Name = "TabPages";
             this.TabPages.SelectedItem = this.tabStrip1;
-            this.TabPages.Size = new System.Drawing.Size(926, 589);
+            this.TabPages.Size = new System.Drawing.Size(1072, 686);
             this.TabPages.TabIndex = 4;
             this.TabPages.Text = "faTabStrip1";
             this.TabPages.TabStripItemSelectionChanged += new FarsiLibrary.Win.TabStripItemChangedHandler(this.OnTabsChanged);
@@ -210,7 +210,7 @@
             this.tabStrip1.IsDrawn = true;
             this.tabStrip1.Name = "tabStrip1";
             this.tabStrip1.Selected = true;
-            this.tabStrip1.Size = new System.Drawing.Size(924, 559);
+            this.tabStrip1.Size = new System.Drawing.Size(1070, 656);
             this.tabStrip1.TabIndex = 0;
             this.tabStrip1.Title = "Loading...";
             // 
@@ -227,9 +227,9 @@
             // 
             this.PanelStatus.Controls.Add(this.lbIpAddress);
             this.PanelStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelStatus.Location = new System.Drawing.Point(4, 647);
+            this.PanelStatus.Location = new System.Drawing.Point(4, 744);
             this.PanelStatus.Name = "PanelStatus";
-            this.PanelStatus.Size = new System.Drawing.Size(926, 20);
+            this.PanelStatus.Size = new System.Drawing.Size(1072, 20);
             this.PanelStatus.TabIndex = 8;
             // 
             // lbIpAddress
@@ -250,7 +250,7 @@
             this.PanelSearch.Controls.Add(this.BtnPrevSearch);
             this.PanelSearch.Controls.Add(this.BtnCloseSearch);
             this.PanelSearch.Controls.Add(this.TxtSearch);
-            this.PanelSearch.Location = new System.Drawing.Point(625, 41);
+            this.PanelSearch.Location = new System.Drawing.Point(771, 41);
             this.PanelSearch.Name = "PanelSearch";
             this.PanelSearch.Size = new System.Drawing.Size(307, 40);
             this.PanelSearch.TabIndex = 9;
@@ -319,7 +319,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(221)))), ((int)(((byte)(235)))));
-            this.ClientSize = new System.Drawing.Size(934, 671);
+            this.ClientSize = new System.Drawing.Size(1080, 768);
             this.Controls.Add(this.PanelSearch);
             this.Controls.Add(this.TabPages);
             this.Controls.Add(this.PanelToolbar);

@@ -571,3 +571,56 @@
 ", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_d22d34b.js (177)
 [0410/105253:INFO:CONSOLE(177)] "请将简历发送至 %c ps_recruiter@baidu.com（ 邮件标题请以“姓名-应聘XX职位-来自console”命名）", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_d22d34b.js (177)
 [0410/105253:INFO:CONSOLE(177)] "职位介绍：http://dwz.cn/hr2013", source: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_d22d34b.js (177)
+[0416/171221:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/robyle/CefSpider (0)
+[0416/171253:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/sharpbrowser/SharpBrowser (0)
+[0416/171425:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/robyle/CefSpider (0)
+[0416/171458:INFO:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'worker-src'.
+", source: https://github.com/robyle/CefSpider (0)
+[0416/171517:ERROR:render_media_log.cc(23)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[0419/135546:ERROR:entry_impl.cc(1035)] No file for 80000002
+[0419/135548:ERROR:service_worker_storage.cc(1733)] Failed to delete the database: Database operation failed
+[0419/135550:ERROR:entry_impl.cc(1035)] No file for 800001ad
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 80000143
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 80000173
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 80000141
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 80000174
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 8000013e
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 80000142
+[0419/135552:ERROR:entry_impl.cc(1035)] No file for 80000140
+[0419/135559:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b0
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b1
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b2
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b4
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b3
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b5
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b8
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b9
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000ac
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000a7
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000a8
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000a9
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000ab
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000ad
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000af
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b6
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000aa
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000ae
+[0419/135615:ERROR:entry_impl.cc(1035)] No file for 800000b7
+[0419/135652:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/135652:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/135720:ERROR:entry_impl.cc(1035)] No file for 80000001
+[0419/135722:ERROR:service_worker_storage.cc(1733)] Failed to delete the database: Database operation failed
+[0419/135723:ERROR:entry_impl.cc(1035)] No file for 8000013c
+[0419/135730:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/135730:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/140105:ERROR:service_worker_storage.cc(1733)] Failed to delete the database: Database operation failed
+[0419/140114:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/140114:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/140208:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/140208:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
+[0419/140544:ERROR:service_worker_storage.cc(1733)] Failed to delete the database: Database operation failed
+[0419/140553:ERROR:connection.cc(1919)] DOMStorageDatabase sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO ItemTable VALUES (?,?)
