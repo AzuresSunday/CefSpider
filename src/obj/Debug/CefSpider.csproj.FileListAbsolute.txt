@@ -14,6 +14,7 @@ D:\Projects\Github\CefSpider\src\bin\CSkin.dll
 D:\Projects\Github\CefSpider\src\bin\NLog.dll
 D:\Projects\Github\CefSpider\src\bin\CSkin.xml
 D:\Projects\Github\CefSpider\src\bin\NLog.xml
-D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csprojResolveAssemblyReference.cache
 D:\Projects\Github\CefSpider\src\bin\Newtonsoft.Json.dll
 D:\Projects\Github\CefSpider\src\bin\Newtonsoft.Json.xml
+D:\Projects\Github\CefSpider\src\bin\Pages\HomePage.html
+D:\Projects\Github\CefSpider\src\obj\Debug\CefSpider.csprojAssemblyReference.cache

@@ -286,7 +286,8 @@ namespace CefSpider {
 		public bool OnResourceResponse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, IResponse response) {
 
 
-			int code = response.StatusCode;
+
+            int code = response.StatusCode;
 
 
 			// if NOT FOUND

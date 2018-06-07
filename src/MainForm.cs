@@ -181,6 +181,8 @@ namespace CefSpider {
 			settings.IgnoreCertificateErrors = true;
 			settings.CachePath = GetAppDir("Cache");
 
+            settings.CefCommandLineArgs.Add("disable-gpu", "0"); // 禁用gpu
+
             settings.Locale = "zh-CN";
             //配置代理运行
             //settings.CefCommandLineArgs.Add("no-proxy-server", "1");

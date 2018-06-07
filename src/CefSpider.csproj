@@ -155,6 +155,9 @@
     <EmbeddedResource Include="Resources\CefSpiderLogo.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <Content Include="Pages\HomePage.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\CefSpiderLogo.png" />
     <None Include="Resources\logoCefSpider.ico" />
   </ItemGroup>
