@@ -30,8 +30,8 @@ namespace CefSpider {
 
 		public static string Branding = "CefSpider";
 		public static string UserAgent = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36";
-		public static string HomepageURL = "https://github.com/robyle/CefSpider";
-		public static string NewTabURL = "http://cefspider.le1e.com/";
+		public static string HomepageURL = "https://toefl.etest.net.cn/cn";
+		public static string NewTabURL = "https://toefl.etest.net.cn/cn";
 		public static string DownloadsURL = "CefSpider://storage/downloads.html";
 		public static string FileNotFoundURL = "CefSpider://storage/errors/notFound.html";
 		public static string CannotConnectURL = "CefSpider://storage/errors/cannotConnect.html";

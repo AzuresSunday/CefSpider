@@ -1,0 +1,2 @@
+﻿var xhttp = new XMLHttpRequest();xhttp.open('GET', '/cn/'+new Date().getTime()+Math.random()+'VerifyCode3.jpg', false);xhttp.send();
+return xhttp.responseText;
