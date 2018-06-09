@@ -395,7 +395,7 @@ namespace CefSpider {
 
             
             var obj = new BoundObject();
-            browser.RegisterJsObject("bound", obj);
+            browser.RegisterJsObject("boundobj", obj);
             browser.FrameLoadEnd += obj.OnFrameLoadEnd;
 
             // new tab obj
