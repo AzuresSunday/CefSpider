@@ -60,6 +60,7 @@
     <StartupObject>CefSpider.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BoundObject.cs" />
     <Compile Include="Data\JSON.cs" />
     <Compile Include="Model\IpJsonModel.cs" />
     <Compile Include="Network\IpInfo.cs" />

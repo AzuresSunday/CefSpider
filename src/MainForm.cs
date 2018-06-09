@@ -51,7 +51,7 @@ namespace CefSpider {
 
 			InitBrowser();
 
-			SetFormTitle(null);
+            SetFormTitle(null);
             
             //初始化用户自定以UI数据
             InitUserUI();
@@ -393,8 +393,13 @@ namespace CefSpider {
 			browser.KeyboardHandler = kHandler;
 			browser.RequestHandler = rHandler;
 
-			// new tab obj
-			SharpTab tab = new SharpTab {
+            
+            var obj = new BoundObject();
+            browser.RegisterJsObject("bound", obj);
+            browser.FrameLoadEnd += obj.OnFrameLoadEnd;
+
+            // new tab obj
+            SharpTab tab = new SharpTab {
 				IsOpen = true,
 				Browser = browser,
 				Tab = tabStrip,
