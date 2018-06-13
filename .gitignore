@@ -5,3 +5,4 @@
 /src/.vs/CefSpider/v15/Server/sqlite3
 *.json
 *.gitattributes
+*.zip
