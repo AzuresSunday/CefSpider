@@ -51,6 +51,7 @@
             this.BtnPrevSearch = new System.Windows.Forms.Button();
             this.BtnCloseSearch = new System.Windows.Forms.Button();
             this.TxtSearch = new System.Windows.Forms.TextBox();
+            this.faTabStripItem1 = new FarsiLibrary.Win.FATabStripItem();
             this.menuStripTab.SuspendLayout();
             this.PanelToolbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TabPages)).BeginInit();
@@ -219,7 +220,7 @@
             this.tabStripAdd.CanClose = false;
             this.tabStripAdd.IsDrawn = true;
             this.tabStripAdd.Name = "tabStripAdd";
-            this.tabStripAdd.Size = new System.Drawing.Size(931, 601);
+            this.tabStripAdd.Size = new System.Drawing.Size(1070, 656);
             this.tabStripAdd.TabIndex = 1;
             this.tabStripAdd.Title = "+";
             // 
@@ -315,6 +316,14 @@
             this.TxtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             this.TxtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtSearch_KeyDown);
             // 
+            // faTabStripItem1
+            // 
+            this.faTabStripItem1.IsDrawn = true;
+            this.faTabStripItem1.Name = "faTabStripItem1";
+            this.faTabStripItem1.Size = new System.Drawing.Size(1070, 656);
+            this.faTabStripItem1.TabIndex = 2;
+            this.faTabStripItem1.Title = "TabStrip Page 3";
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -372,6 +381,7 @@
         private System.Windows.Forms.Button BtnPrevSearch;
         private System.Windows.Forms.Button BtnNextSearch;
         private System.Windows.Forms.Label lbIpAddress;
+        private FarsiLibrary.Win.FATabStripItem faTabStripItem1;
     }
 }
 

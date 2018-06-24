@@ -214,13 +214,17 @@ namespace CefSpider {
 			config.UniversalAccessFromFileUrls = (!CrossDomainSecurity).ToCefState();
 			config.WebSecurity = WebSecurity.ToCefState();
 			config.WebGl = WebGL.ToCefState();
-
+            
 			browser.BrowserSettings = config;
 
-		}
+            RequestContextSettings requestContextSettings = new RequestContextSettings();
+            requestContextSettings.PersistSessionCookies = false;
+            browser.RequestContext = new RequestContext(requestContextSettings);
+
+        }
 
 
-		private static string GetAppDir(string name) {
+        private static string GetAppDir(string name) {
 			string winXPDir = @"C:\Documents and Settings\All Users\Application Data\";
 			if (Directory.Exists(winXPDir)) {
 				return winXPDir + Branding + @"\" + name + @"\";

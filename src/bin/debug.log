@@ -1134,3 +1134,118 @@
 [0624/114731:ERROR:connection.cc(1919)] Quota sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO OriginInfoTable (last_modified_time, origin, type)  VALUES (?, ?, ?)
 [0624/114731:ERROR:connection.cc(1919)] Quota sqlite error 8, errno 0: attempt to write a readonly database, sql: INSERT INTO OriginInfoTable (last_modified_time, origin, type)  VALUES (?, ?, ?)
 [0624/114745:ERROR:ipc_channel_win.cc(519)] pipe error: 232
+[0624/115752:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115752:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115752:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115752:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 101 to 127
+[0624/115753:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115753:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115753:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115753:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115753:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115753:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115856:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115856:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115856:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115856:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115856:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/115856:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120017:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120017:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120017:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120017:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120017:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120017:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120018:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120018:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120018:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120018:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120018:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120020:WARNING:mediasession.cc(376)] Duplicate id found. Reassigning from 101 to 127
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun01.sipphone.com., errorcode: -105
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun01.sipphone.com., errorcode: -105
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08827818:data:1:0::Net[any:0.0.0.x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun01.sipphone.com., errorcode: -105
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun01.sipphone.com., errorcode: -105
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08829D70:data:2:0::Net[any:0.0.0.x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error 0
+[0624/120020:WARNING:p2ptransportchannel.cc(487)] Jingle:Port[016FE200:data:1:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0624/120020:WARNING:p2ptransportchannel.cc(487)] Jingle:Port[016FC9F0:data:1:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0624/120020:WARNING:p2ptransportchannel.cc(487)] Jingle:Port[016FD128:data:2:0:local:Net[any:0.0.0.x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0624/120020:WARNING:p2ptransportchannel.cc(487)] Jingle:Port[016FD5F8:data:2:0:local:Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: SetOption(5, 0) failed: 0
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun.fwdnet.net., errorcode: -105
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun.fwdnet.net., errorcode: -105
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08827818:data:1:0::Net[any:0.0.0.x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun.fwdnet.net., errorcode: -105
+[0624/120020:ERROR:socket_dispatcher_host.cc(88)] Failed to resolve address for stun.fwdnet.net., errorcode: -105
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08828AC8:data:1:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[08829D70:data:2:0::Net[any:0.0.0.x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120020:WARNING:stunport.cc(393)] Jingle:Port[0882A818:data:2:0::Net[any:0:0:0:x:x:x:x:x/0:Unknown]]: StunPort: stun host lookup received error -1
+[0624/120021:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120021:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120021:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120021:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120021:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120021:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120024:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120024:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120024:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120024:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120024:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120024:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120027:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120027:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120027:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120027:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120027:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120027:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120043:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120043:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120043:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120043:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120043:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120043:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120044:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120044:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120044:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120044:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120044:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120047:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120047:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120047:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120047:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120047:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120047:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120050:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120050:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120050:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120050:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120050:WARNING:quota_manager.cc(1808)] Create directory failed for path
+[0624/120055:WARNING:ipc_channel_win.cc(375)] Unable to create pipe "\\.\pipe\chrome.25700.5.147883353" in client mode: 系统找不到指定的文件。 (0x2)
