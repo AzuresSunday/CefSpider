@@ -6,3 +6,4 @@
 *.json
 *.gitattributes
 *.zip
+/src/bin-Zip/bin14/logs/log2018-07-13.txt
